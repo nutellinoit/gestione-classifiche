@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8bf30da1-03e8-435b-903f-8a9d1fe52b14" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/gestione-classifiche/demo_database.sqlite" afterPath="$PROJECT_DIR$/code/gestione-classifiche/demo_database.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/Util/UrlHelper.php" afterPath="$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/Util/UrlHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/gestione-classifiche/index.php" afterPath="$PROJECT_DIR$/code/gestione-classifiche/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +18,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+            <state relative-caret-position="264">
+              <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -69,21 +68,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UrlHelper.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UrlHelper.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/Util/UrlHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/templates/pages/base.twig">
+      <file leaf-file-name="AbstractUrl.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/league/url/src/AbstractUrl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="500">
+              <caret line="276" column="21" lean-forward="true" selection-start-line="276" selection-start-column="21" selection-end-line="276" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -138,6 +137,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/code/gestione-classifiche/.gitignore" />
         <option value="$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/Util/UrlHelper.php" />
+        <option value="$PROJECT_DIR$/code/gestione-classifiche/index.php" />
       </list>
     </option>
   </component>
@@ -468,12 +468,12 @@
       <workItem from="1498228071649" duration="1398000" />
       <workItem from="1498230322834" duration="208000" />
       <workItem from="1498231785066" duration="335000" />
-      <workItem from="1498232276514" duration="514000" />
+      <workItem from="1498232276514" duration="1073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2455000" />
+    <option name="totallyTimeSpent" value="3014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="740" extended-state="6" />
@@ -699,14 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/CrudKitApp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -731,10 +723,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/Util/UrlHelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/league/url/src/AbstractUrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="276" column="21" lean-forward="true" selection-start-line="276" selection-start-column="21" selection-end-line="276" selection-end-column="21" />
           <folding />
         </state>
       </provider>

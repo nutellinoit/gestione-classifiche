@@ -43,22 +43,50 @@ if ($login->getLoggedInUser () === "user") {
 
 
 
-$classifiche_moto1 = new SQLiteTablePage ("sqlite3", "demo_database.sqlite");
+$classifiche_moto1 = new SQLiteTablePage ("sqlite1", "demo_database.sqlite");
 $classifiche_moto1->setName("Classifica Moto 1")
     ->setTableName("classifica_moto1")
     ->setRowsPerPage (20)
-    ->setPrimaryColumn("Ordine")
-    ->addColumn("Nome", "Nome", array(
+    ->setPrimaryColumn("id")
+    ->addColumn("Pilota", "Pilota", array(
         'required' => true
     ))
     ->addColumn("Posizione", "Posizione")
-    ->addColumn("Tempo", "Tempo")
-    ->addColumn("Country", "Country")
-    ->addColumn("Email", "E-mail")
-    ->setSummaryColumns(array("Nome", "Posizione","Tempo","Country","Email"));
+    ->addColumn("Nazione", "Nazione")
+    ->addColumn("Moto", "Moto")
+    ->addColumn("Punti", "Punti")
+    ->setSummaryColumns(array("Posizione", "Pilota","Nazione","Moto","Punti"));
 $app->addPage($classifiche_moto1);
 
+$classifiche_moto2 = new SQLiteTablePage ("sqlite2", "demo_database.sqlite");
+$classifiche_moto2->setName("Classifica Moto 2")
+    ->setTableName("classifica_moto2")
+    ->setRowsPerPage (20)
+    ->setPrimaryColumn("id")
+    ->addColumn("Pilota", "Pilota", array(
+        'required' => true
+    ))
+    ->addColumn("Posizione", "Posizione")
+    ->addColumn("Nazione", "Nazione")
+    ->addColumn("Moto", "Moto")
+    ->addColumn("Punti", "Punti")
+    ->setSummaryColumns(array("Posizione", "Pilota","Nazione","Moto","Punti"));
+$app->addPage($classifiche_moto2);
 
+$classifiche_moto3 = new SQLiteTablePage ("sqlite3", "demo_database.sqlite");
+$classifiche_moto3->setName("Classifica Moto 3")
+    ->setTableName("classifica_moto3")
+    ->setRowsPerPage (20)
+    ->setPrimaryColumn("id")
+    ->addColumn("Pilota", "Pilota", array(
+        'required' => true
+    ))
+    ->addColumn("Posizione", "Posizione")
+    ->addColumn("Nazione", "Nazione")
+    ->addColumn("Moto", "Moto")
+    ->addColumn("Punti", "Punti")
+    ->setSummaryColumns(array("Posizione", "Pilota","Nazione","Moto","Punti"));
+$app->addPage($classifiche_moto3);
 
 
 // Render the app. This will display the HTML
