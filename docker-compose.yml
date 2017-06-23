@@ -1,0 +1,13 @@
+web:
+    image: nginx:latest
+    ports:
+        - "20081:80"
+    volumes:
+        - ./code:/code
+        - ./site.conf:/etc/nginx/conf.d/default.conf
+    links:
+        - php
+php:
+    image: busnet/php-mysql
+    volumes:
+        - ./code:/code
