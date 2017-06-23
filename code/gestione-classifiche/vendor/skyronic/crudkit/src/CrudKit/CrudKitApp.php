@@ -156,7 +156,7 @@ class CrudKitApp {
     protected $redirect = null;
 
     public function _requestRedirect ($url) {
-        $this->redirect = str_replace("localhost","localhost:5081",$url);
+        $this->redirect =$url ;
     }
 
     /**
