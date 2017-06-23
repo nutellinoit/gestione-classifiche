@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bf30da1-03e8-435b-903f-8a9d1fe52b14" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/gestione-classifiche/demo_database.sqlite" afterPath="$PROJECT_DIR$/code/gestione-classifiche/demo_database.sqlite" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gestione-classifiche.iml" afterPath="$PROJECT_DIR$/.idea/gestione-classifiche.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/code/gestione-classifiche/index.php" afterPath="$PROJECT_DIR$/code/gestione-classifiche/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,94 +18,33 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="-796">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <folding>
+                <element signature="e#207#230#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-82">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrudKitApp.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/CrudKitApp.php">
+      <file leaf-file-name="MySQLTablePage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/Pages/MySQLTablePage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="158" column="67" lean-forward="false" selection-start-line="158" selection-start-column="26" selection-end-line="158" selection-end-column="67" />
+            <state relative-caret-position="120">
+              <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crudkit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/crudkit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RouteGenerator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/Util/RouteGenerator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UrlHelper.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/Util/UrlHelper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractUrl.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/league/url/src/AbstractUrl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="282" column="18" lean-forward="false" selection-start-line="282" selection-start-column="18" selection-end-line="282" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="300">
+              <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -122,7 +65,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>url</find>
+      <find>, &quot;user2&quot;,&quot;hunter2&quot;, &quot;Chinook&quot;, array('host' =&gt;''</find>
     </findStrings>
+    <replaceStrings>
+      <replace>, &quot;classifiche&quot;,&quot;u6yne7e6a&quot;, &quot;zadmin_classifichemoto&quot;, array('host' =&gt;'web1.nutellino.it'</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,8 +83,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/code/gestione-classifiche/.gitignore" />
         <option value="$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/Util/UrlHelper.php" />
-        <option value="$PROJECT_DIR$/code/gestione-classifiche/index.php" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/code/gestione-classifiche/index.php" />
       </list>
     </option>
   </component>
@@ -217,7 +164,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crudkit" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,15 +280,15 @@
       <workItem from="1498228071649" duration="1398000" />
       <workItem from="1498230322834" duration="208000" />
       <workItem from="1498231785066" duration="335000" />
-      <workItem from="1498232276514" duration="1362000" />
+      <workItem from="1498232276514" duration="3420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3303000" />
+    <option name="totallyTimeSpent" value="5361000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="740" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="740" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -402,7 +353,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#207#230#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -541,14 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -560,10 +505,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/CrudKitApp.php">
+    <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/Util/RouteGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="158" column="67" lean-forward="false" selection-start-line="158" selection-start-column="26" selection-end-line="158" selection-end-column="67" />
+        <state relative-caret-position="-38">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -576,18 +521,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/Util/RouteGenerator.php">
+    <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/CrudKitApp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="512">
+          <caret line="173" column="1" lean-forward="false" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/index.php">
+    <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/league/url/src/AbstractUrl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+        <state relative-caret-position="222">
+          <caret line="262" column="5" lean-forward="false" selection-start-line="262" selection-start-column="5" selection-end-line="262" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -595,15 +540,7 @@
     <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/Util/UrlHelper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/league/url/src/AbstractUrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="282" column="18" lean-forward="false" selection-start-line="282" selection-start-column="18" selection-end-line="282" selection-end-column="18" />
+          <caret line="17" column="55" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -616,11 +553,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="300">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/vendor/skyronic/crudkit/src/CrudKit/Pages/MySQLTablePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/gestione-classifiche/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-796">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#207#230#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

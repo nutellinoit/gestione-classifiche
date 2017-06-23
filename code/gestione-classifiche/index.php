@@ -1,8 +1,12 @@
 <?php
+$_SERVER["SERVER_PORT"]='5081';
+$_SERVER["SERVER_PROTOCOL"]='HTTP';
+$_SERVER["HTTP_HOST"]='46.101.215.250';
+$_SERVER["SERVER_ADDR"]='46.101.215.250';
 error_reporting(0);
 require "vendor/autoload.php";
 use CrudKit\CrudKitApp;
-use CrudKit\Pages\SQLiteTablePage;
+use CrudKit\Pages\MySQLTablePage;
 use CrudKit\Pages\BasicLoginPage;
 
 // Create a new CrudKitApp object
@@ -31,19 +35,20 @@ if ($login->userTriedLogin ()) {
     }
 }
 $app->useLogin ($login);
-// 
+//
 // END HANDLING LOGIN.
-// 
-
+//
+/*
 if ($login->getLoggedInUser () === "user") {
     // If the user isn't `admin` then use read-only
     $app->setReadOnly (true);
-}
+}*/
 
 
 
+$app->setReadOnly (false);
 
-$classifiche_moto1 = new SQLiteTablePage ("sqlite1", "demo_database.sqlite");
+$classifiche_moto1 = new MySQLTablePage("mysql1", "classifiche","u6yne7e6a", "zadmin_classifichemoto", array('host' =>'web1.nutellino.it' ,'charset' => "UTF8"));
 $classifiche_moto1->setName("Classifica Moto 1")
     ->setTableName("classifica_moto1")
     ->setRowsPerPage (20)
@@ -58,7 +63,7 @@ $classifiche_moto1->setName("Classifica Moto 1")
     ->setSummaryColumns(array("Posizione", "Pilota","Nazione","Moto","Punti"));
 $app->addPage($classifiche_moto1);
 
-$classifiche_moto2 = new SQLiteTablePage ("sqlite2", "demo_database.sqlite");
+$classifiche_moto2 = new MySQLTablePage("mysql2", "classifiche","u6yne7e6a", "zadmin_classifichemoto", array('host' =>'web1.nutellino.it' ,'charset' => "UTF8"));
 $classifiche_moto2->setName("Classifica Moto 2")
     ->setTableName("classifica_moto2")
     ->setRowsPerPage (20)
@@ -73,7 +78,7 @@ $classifiche_moto2->setName("Classifica Moto 2")
     ->setSummaryColumns(array("Posizione", "Pilota","Nazione","Moto","Punti"));
 $app->addPage($classifiche_moto2);
 
-$classifiche_moto3 = new SQLiteTablePage ("sqlite3", "demo_database.sqlite");
+$classifiche_moto3 = new MySQLTablePage("mysql3", "classifiche","u6yne7e6a", "zadmin_classifichemoto", array('host' =>'web1.nutellino.it' ,'charset' => "UTF8"));
 $classifiche_moto3->setName("Classifica Moto 3")
     ->setTableName("classifica_moto3")
     ->setRowsPerPage (20)
