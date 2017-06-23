@@ -15,7 +15,7 @@ class UrlHelper {
 
     public function __construct () {
         if(self::$url === null) {
-            self::$url = UrlImmutable::createFromServer($_SERVER);
+            self::$url = UrlImmutable::createFromServer(str_replace("localhost","localhost:5081",$_SERVER));
         }
     }
     public function addGetParams ($params = array()) {
