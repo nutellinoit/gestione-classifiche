@@ -1,5 +1,5 @@
 web:
-    build: .
+    image: nginx:latest
     ports:
         - "5081:80"
     volumes:
@@ -8,6 +8,6 @@ web:
     links:
         - php
 php:
-    image: busnet/php-mysql
+    build: ./
     volumes:
         - ./code:/code
